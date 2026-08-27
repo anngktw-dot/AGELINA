@@ -25,16 +25,6 @@ Consent-first family-safety MVP with separate parent and child experiences, a pe
 
 ---
 
-### Gradient — AI Lead & Email Workflow Platform
-Full-stack product with a **FastAPI backend** and **React frontend**. The backend work included Gmail-related flows, AI services, sales-intent detection, user registration handling, and database-backed application logic.
-
-**Tech:** Python · FastAPI · React · AI integrations · database layer · Render · Vercel
-
-➡️ [Backend source](https://github.com/Sharik3k/Gradient-Backend)  
-➡️ [Frontend source](https://github.com/Sharik3k/Gradient-Frontend)
-
----
-
 ### MockIT — AI-Assisted Recruiting Workflow
 Clickable recruiting-product MVP with onboarding, vacancies, candidate review, resume-analysis UI, live interview workspace, scoring, summary reporting, and billing demo interactions.
 
