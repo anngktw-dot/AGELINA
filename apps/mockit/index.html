@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MockIT — Recruiter Workflow Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">MockIT</div>
+    <button data-screen="onboarding">Onboarding</button>
+    <button data-screen="vacancies">Vacancies</button>
+    <button data-screen="candidate">Candidate</button>
+    <button data-screen="interview">Interview</button>
+    <button data-screen="summary">Summary</button>
+    <button data-screen="billing">Billing</button>
+  </aside>
+
+  <main class="main">
+    <section id="onboarding" class="screen active">
+      <div class="eyebrow">Workspace setup</div>
+      <h1>Tell us about your hiring flow</h1>
+      <div class="card grid2">
+        <label>Company name<input id="companyName" placeholder="Acme Labs" /></label>
+        <label>Company size<select id="companySize"><option>1–20</option><option>21–100</option><option>101–500</option><option>500+</option></select></label>
+        <label>Hiring goal<select id="hiringGoal"><option>Engineering</option><option>Product</option><option>Sales</option><option>Operations</option></select></label>
+        <label>Monthly hiring volume<select id="hiringVolume"><option>1–5</option><option>6–20</option><option>21–50</option><option>50+</option></select></label>
+      </div>
+      <button id="saveOnboarding" class="primary">Save workspace</button>
+      <p id="onboardingStatus" class="muted"></p>
+    </section>
+
+    <section id="vacancies" class="screen">
+      <div class="eyebrow">Recruiting workspace</div>
+      <h1>Vacancies</h1>
+      <input id="vacancySearch" class="search" placeholder="Search vacancies..." />
+      <div id="vacancyList" class="cards"></div>
+    </section>
+
+    <section id="candidate" class="screen">
+      <div class="eyebrow">Candidate review</div>
+      <h1 id="candidateName">Candidate</h1>
+      <div class="grid2">
+        <div class="card">
+          <h3>Resume analysis</h3>
+          <div class="score"><span id="resumeScore">82</span>/100</div>
+          <p id="candidateRole" class="muted"></p>
+          <ul>
+            <li>Strong technical match</li>
+            <li>Relevant project experience</li>
+            <li>Communication evidence detected</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Suggested interview focus</h3>
+          <p>Architecture decisions, debugging approach, collaboration, and ownership.</p>
+          <button class="primary" data-screen="interview">Start live interview</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="interview" class="screen">
+      <div class="eyebrow">Live interview workspace</div>
+      <h1>Structured interview</h1>
+      <div class="card">
+        <label>Question
+          <select id="questionSelect">
+            <option>Tell me about a difficult bug you solved.</option>
+            <option>How do you design a reliable API?</option>
+            <option>Describe a project where you owned the result.</option>
+          </select>
+        </label>
+        <label>Candidate response<textarea id="interviewResponse" rows="8" placeholder="Type notes or the candidate response..."></textarea></label>
+        <div class="score-row"><span>Demo score</span><strong id="interviewScore">0/100</strong></div>
+        <button id="scoreResponse" class="primary">Update score</button>
+      </div>
+    </section>
+
+    <section id="summary" class="screen">
+      <div class="eyebrow">Decision support</div>
+      <h1>Interview summary</h1>
+      <div class="card">
+        <div class="score"><span id="finalScore">0</span>/100</div>
+        <h3>Recommendation</h3>
+        <p id="recommendation">Complete the interview to generate the demo recommendation.</p>
+        <p class="muted">This score is deterministic demo logic, not real AI analysis.</p>
+      </div>
+    </section>
+
+    <section id="billing" class="screen">
+      <div class="eyebrow">Usage & billing demo</div>
+      <h1>Billing</h1>
+      <div class="grid2">
+        <div class="card"><h3>Current plan</h3><p>Starter</p><strong>$29 / month</strong></div>
+        <div class="card"><h3>Interviews this month</h3><div class="score"><span id="usageCount">12</span></div><button id="addUsage">Simulate interview</button></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
