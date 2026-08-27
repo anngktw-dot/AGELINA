@@ -58,10 +58,12 @@ Production-style REST API built in a seven-person team with JWT authentication, 
 
 ## Additional Development Work
 
-### Sympany — Authentication Frontend
-Structured authentication frontend with typed validation and automated quality checks.
+### 🎵 Sympany — Music Discovery Platform
+**Frontend Developer · Team project**
 
-**Tech:** Next.js · React · TypeScript · React Hook Form · Zod · GitHub Actions
+Frontend for a music-discovery product with authentication, track matching, Like / Pass / Undo interactions, personal library, playlist management, profile flows, and responsive desktop/mobile UI. The current repository uses local/mock music data and includes a prepared Spotify connection flow rather than presenting the Spotify API integration as fully completed.
+
+**Tech:** Next.js · React · TypeScript · React Hook Form · Zod · CSS Modules · GitHub Actions
 
 ➡️ [View repository](https://github.com/anngktw-dot/Sympany)
 
