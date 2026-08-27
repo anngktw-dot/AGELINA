@@ -8,11 +8,31 @@ I build backend APIs, local data tools, AI-powered applications, and interactive
 
 **Backend:** Python, Django, Django REST Framework, FastAPI, Flask, Node.js, Express  
 **Data:** PostgreSQL, SQL, Prisma, Pandas, DuckDB  
-**AI:** OpenAI-based workflows, Hugging Face Inference API, prompt-based image generation, data/AI tooling  
-**Frontend:** React, Streamlit, TypeScript, Next.js, JavaScript, HTML, CSS  
+**AI:** OpenAI-based workflows, local GGUF/llama.cpp inference, data/AI tooling  
+**Frontend:** Flutter, Dart, React, Streamlit, TypeScript, Next.js, JavaScript, HTML, CSS  
 **Tools:** Git, GitHub, Docker, GitHub Actions, Render, Vercel
 
 ## Personal Projects
+
+### 👨‍👩‍👧 FamilyGuard — Family Safety / Parental-Control MVP
+A family-safety application concept with separate parent and child experiences plus a backend service. The portfolio MVP demonstrates explicit child check-ins, shared status/location labels, battery status, screen-time summaries, and app-usage summaries through a parent dashboard.
+
+**Tech:** Python · FastAPI · Pydantic · HTML · CSS · JavaScript
+
+➡️ [View project source](./apps/familyguard/)
+
+---
+
+### 🤖 Offline AI Assistant
+Local-first AI chat application designed to run a GGUF language model directly on the user's device through `llama.cpp`, without requiring a hosted AI API for inference.
+
+**Highlights:** local model loading, Flutter chat UI, token-by-token generation, on-device conversation flow, local GGUF runtime integration.
+
+**Tech:** Flutter · Dart · llama.cpp · llama_cpp_dart · GGUF
+
+➡️ [View project source](./apps/offline-ai-assistant/)
+
+---
 
 ### Gradient — AI Lead & Email Workflow Platform
 Full-stack product with a **FastAPI backend** and **React frontend**, deployed separately on Render and Vercel. The backend work included Gmail-related flows, AI services, sales-intent detection, user registration handling, and database-backed application logic.
@@ -20,17 +40,7 @@ Full-stack product with a **FastAPI backend** and **React frontend**, deployed s
 **Tech:** Python · FastAPI · React · AI integrations · database layer · Render · Vercel
 
 ➡️ [Backend source](https://github.com/Sharik3k/Gradient-Backend)  
-➡️ [Frontend source](https://github.com/Sharik3k/Gradient-Frontend)  
-➡️ [Deployed backend](https://gradient-prod-test.onrender.com)
-
----
-
-### 🎨 AI Image Generator with Style Selection
-AI image generation app with a Flask backend and Streamlit frontend. A user enters a prompt, chooses a style, and the backend builds the final prompt and generates an image through Hugging Face Inference API using FLUX.1-schnell.
-
-**Tech:** Python · Flask · Streamlit · Hugging Face Inference API · FLUX.1-schnell
-
-➡️ [View source code](https://github.com/anngktw-dot/project)
+➡️ [Frontend source](https://github.com/Sharik3k/Gradient-Frontend)
 
 ---
 
