@@ -8,11 +8,22 @@ I build backend APIs, local data tools, AI-powered applications, and interactive
 
 **Backend:** Python, Django, Django REST Framework, FastAPI, Flask, Node.js, Express  
 **Data:** PostgreSQL, SQL, Prisma, Pandas, DuckDB  
-**AI:** Hugging Face Inference API, prompt-based image generation, data/AI tooling  
-**Frontend:** Streamlit, TypeScript, Next.js, JavaScript, HTML, CSS  
-**Tools:** Git, GitHub, Docker, GitHub Actions, Render
+**AI:** OpenAI-based workflows, Hugging Face Inference API, prompt-based image generation, data/AI tooling  
+**Frontend:** React, Streamlit, TypeScript, Next.js, JavaScript, HTML, CSS  
+**Tools:** Git, GitHub, Docker, GitHub Actions, Render, Vercel
 
 ## Personal Projects
+
+### Gradient — AI Lead & Email Workflow Platform
+Full-stack product with a **FastAPI backend** and **React frontend**, deployed separately on Render and Vercel. The backend work included Gmail-related flows, AI services, sales-intent detection, user registration handling, and database-backed application logic.
+
+**Tech:** Python · FastAPI · React · AI integrations · database layer · Render · Vercel
+
+➡️ [Backend source](https://github.com/Sharik3k/Gradient-Backend)  
+➡️ [Frontend source](https://github.com/Sharik3k/Gradient-Frontend)  
+➡️ [Deployed backend](https://gradient-prod-test.onrender.com)
+
+---
 
 ### 🎨 AI Image Generator with Style Selection
 AI image generation app with a Flask backend and Streamlit frontend. A user enters a prompt, chooses a style, and the backend builds the final prompt and generates an image through Hugging Face Inference API using FLUX.1-schnell.
