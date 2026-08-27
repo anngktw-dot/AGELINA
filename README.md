@@ -50,6 +50,7 @@ Clickable recruiting-product MVP with onboarding, vacancies, candidate review, r
 
 **Stage:** front-end MVP; backend/database/production auth/real AI integrations were planned as the next product phase.
 
+➡️ [View reconstructed MVP source](./apps/mockit/)  
 ➡️ [Read the project case study](./MOCKIT.md)
 
 ## Strong Team Project
