@@ -2,8 +2,8 @@
 
 Personal projects currently highlighted on this GitHub profile:
 
-- [FamilyGuard](../apps/familyguard/)
-- [Offline AI Assistant](../apps/offline-ai-assistant/)
+- [FamilyGuard](https://github.com/anngktw-dot/familyguard)
+- [Offline AI Assistant](https://github.com/anngktw-dot/offline-ai-assistant)
 - [Local AI Excel Analyzer](https://github.com/anngktw-dot/projec)
 - [MockIT case study](../MOCKIT.md)
 
