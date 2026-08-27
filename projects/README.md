@@ -2,7 +2,8 @@
 
 Personal projects currently highlighted on this GitHub profile:
 
-- [AI Image Generator with Style Selection](https://github.com/anngktw-dot/project)
+- [FamilyGuard](../apps/familyguard/)
+- [Offline AI Assistant](../apps/offline-ai-assistant/)
 - [Local AI Excel Analyzer](https://github.com/anngktw-dot/projec)
 - [MockIT case study](../MOCKIT.md)
 
