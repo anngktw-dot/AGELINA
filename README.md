@@ -1,116 +1,74 @@
 # Angelina Bidna
 
-**Junior Python Backend Developer · Computer Science Student · AI/ML-focused learner**
+**Junior Python Backend Developer · Computer Science Student · AI/ML-focused developer**
 
-I build backend APIs, data-driven applications, and interactive product prototypes. My main focus is Python backend development, databases, REST APIs, authentication, and gradually expanding into machine learning and AI engineering.
+I build backend APIs, local data tools, AI-powered applications, and interactive product MVPs. My main focus is Python backend development, REST APIs, databases, automation, and practical AI integrations.
 
 ## Core Stack
 
-**Backend:** Python, Django, Django REST Framework, FastAPI, Node.js, Express  
-**Data:** PostgreSQL, SQL, Prisma, Pydantic, Pandas, DuckDB  
-**AI/ML:** scikit-learn, local LLM integration, data preprocessing  
-**Frontend:** TypeScript, Next.js, JavaScript, HTML, CSS  
+**Backend:** Python, Django, Django REST Framework, FastAPI, Flask, Node.js, Express  
+**Data:** PostgreSQL, SQL, Prisma, Pandas, DuckDB  
+**AI:** Hugging Face Inference API, prompt-based image generation, data/AI tooling  
+**Frontend:** Streamlit, TypeScript, Next.js, JavaScript, HTML, CSS  
 **Tools:** Git, GitHub, Docker, GitHub Actions, Render
 
-## Selected Projects
+## Personal Projects
+
+### 🎨 AI Image Generator with Style Selection
+AI image generation app with a Flask backend and Streamlit frontend. A user enters a prompt, chooses a style, and the backend builds the final prompt and generates an image through Hugging Face Inference API using FLUX.1-schnell.
+
+**Tech:** Python · Flask · Streamlit · Hugging Face Inference API · FLUX.1-schnell
+
+➡️ [View source code](https://github.com/anngktw-dot/project)
+
+---
+
+### 📊 Local AI Excel Analyzer
+Privacy-first desktop data tool for local CSV/Excel analysis. The MVP imports spreadsheet files in background workers, stores data in a persistent DuckDB database, shows paginated previews, keeps dataset metadata, and exports CSV/Parquet.
+
+**Tech:** Python · PyQt6 · DuckDB · Pandas · openpyxl · pyxlsb · PyArrow
+
+➡️ [View source code](https://github.com/anngktw-dot/projec)
+
+---
+
+### MockIT — AI-Assisted Recruiting Workflow
+Clickable recruiting-product MVP with onboarding, vacancies, candidate review, resume-analysis UI, live interview workspace, scoring, summary reporting, and billing demo interactions.
+
+**Tech:** HTML · CSS · JavaScript · localStorage
+
+**Stage:** front-end MVP; backend/database/production auth/real AI integrations were planned as the next product phase.
+
+➡️ [Read the project case study](./MOCKIT.md)
+
+## Strong Team Project
 
 ### 🏆 Kanri — Task Management API
 **Backend Developer · 1st Place at Final Project Defense**
 
-Production-style REST API for a task management platform built in a seven-person team.
-
-**Highlights:** JWT authentication, refresh tokens, protected routes, PostgreSQL, Prisma migrations, business rules, Docker, CI, OpenAPI documentation, unit and integration tests.
+Production-style REST API built in a seven-person team with JWT authentication, refresh tokens, protected routes, PostgreSQL/Prisma, business rules, migrations, Docker, CI, OpenAPI documentation, and automated tests.
 
 **Tech:** TypeScript · Node.js · Express · PostgreSQL · Prisma · JWT · Docker · GitHub Actions
 
 ➡️ [View repository](https://github.com/anngktw-dot/kanri-api)
 
----
-
-### Local AI Data Lab
-Local desktop data-analysis project for spreadsheet and tabular data.
-
-**Tech:** Python · PyQt6 · Pandas · DuckDB · openpyxl · PyArrow / Parquet
-
-➡️ [Read project case study](./projects/local-ai-data-lab.md)
-
----
-
-### Offline AI Assistant
-Local-first AI chat application built around on-device LLM inference and streaming responses.
-
-**Tech:** Flutter · Dart · llama.cpp · llama_cpp_dart · GGUF · Qwen2.5 1.5B
-
-➡️ [Read project case study](./projects/offline-ai-assistant.md)
-
----
-
-### Titanic Survival Prediction
-Machine-learning classification project covering preprocessing, Decision Tree training, evaluation, and visualization.
-
-**Tech:** Python · Pandas · scikit-learn · Decision Tree · Matplotlib
-
-➡️ [Read project case study](./projects/titanic-ml.md)
-
----
-
-### FamilyGuard
-Multi-part family-safety / parental-control MVP with parent and child application roles plus backend communication.
-
-➡️ [Read project case study](./projects/familyguard.md)
-
----
-
-### Music Platform Domain Ontology
-Semantic-web project modeling a music / podcast platform using graph-based knowledge representation.
-
-**Tech:** Python · RDFLib · RDF/OWL · SPARQL · SHACL
-
-➡️ [Read project case study](./projects/music-domain-ontology.md)
-
----
+## Additional Development Work
 
 ### Sympany — Authentication Frontend
-Structured authentication frontend with login, registration, email verification, password recovery, typed validation, and automated quality checks.
+Structured authentication frontend with typed validation and automated quality checks.
 
 **Tech:** Next.js · React · TypeScript · React Hook Form · Zod · GitHub Actions
 
 ➡️ [View repository](https://github.com/anngktw-dot/Sympany)
-
----
-
-### MockIT — AI-Assisted Recruiting Workflow
-Front-end MVP created for an ideathon to demonstrate an end-to-end recruiter journey: onboarding, vacancies, candidate review, resume-analysis UI, live interview workspace, summary reporting, and billing demo.
-
-**Tech:** HTML · CSS · JavaScript · localStorage
-
-**Project stage:** interactive front-end MVP; real backend, database, production authentication, and AI integrations are planned next steps.
-
-➡️ [Read the project case study](./MOCKIT.md)
-
----
-
-### Electronics Catalog
-Interactive product catalog built with vanilla JavaScript and a JSON dataset.
-
-**Highlights:** search, category filtering, dynamic rendering, cart state, quantity controls, discounts, totals, and responsive UI.
-
-**Tech:** HTML · CSS · JavaScript · JSON
-
-➡️ [View repository](https://github.com/anngktw-dot/pract-6)
-
-## More Project Notes
-
-Additional portfolio case studies are collected in [`projects/`](./projects/README.md).
 
 ## Currently Focusing On
 
 - Python backend development
 - REST API design
 - PostgreSQL and SQL
-- Authentication and authorization
-- Machine Learning fundamentals
-- Data analysis and preprocessing
+- authentication and authorization
+- practical AI integrations
+- local data-processing tools
 
 ## Contact
 
