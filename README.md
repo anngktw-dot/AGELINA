@@ -53,7 +53,7 @@ Privacy-first desktop data tool for local CSV/Excel analysis. The MVP imports sp
 
 **Tech:** Python · PyQt6 · DuckDB · Pandas · openpyxl · pyxlsb · PyArrow
 
-➡️ [View source code](https://github.com/anngktw-dot/projec)
+➡️ [View source code](https://github.com/anngktw-dot/local-ai-excel-analyzer)
 
 ---
 
