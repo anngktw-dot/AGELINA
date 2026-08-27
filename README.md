@@ -7,7 +7,7 @@ I build backend APIs, local data tools, AI-powered applications, and interactive
 ## Core Stack
 
 **Backend:** Python, Django, Django REST Framework, FastAPI, Flask, Node.js, Express  
-**Data:** PostgreSQL, SQL, Prisma, Pandas, DuckDB  
+**Data:** PostgreSQL, SQL, Prisma, Pandas, DuckDB, SQLAlchemy, SQLite  
 **AI:** OpenAI-based workflows, local GGUF/llama.cpp inference, data/AI tooling  
 **Frontend:** Flutter, Dart, React, Streamlit, TypeScript, Next.js, JavaScript, HTML, CSS  
 **Tools:** Git, GitHub, Docker, GitHub Actions, Render, Vercel
@@ -15,27 +15,31 @@ I build backend APIs, local data tools, AI-powered applications, and interactive
 ## Personal Projects
 
 ### 👨‍👩‍👧 FamilyGuard — Family Safety / Parental-Control MVP
-A family-safety application concept with separate parent and child experiences plus a backend service. The portfolio MVP demonstrates explicit child check-ins, shared status/location labels, battery status, screen-time summaries, and app-usage summaries through a parent dashboard.
+Consent-first family-safety MVP with separate parent and child experiences, a persistent FastAPI/SQLAlchemy backend, validated check-ins, screen-time summaries, API tests, Docker support, and automated CI checks.
 
-**Tech:** Python · FastAPI · Pydantic · HTML · CSS · JavaScript
+**Tech:** Python · FastAPI · Pydantic · SQLAlchemy · SQLite · Pytest · Docker · HTML · CSS · JavaScript
+
+**Stage:** cleaned-up portfolio reconstruction of an earlier personal project concept.
 
 ➡️ [View repository](https://github.com/anngktw-dot/familyguard)
 
 ---
 
 ### 🤖 Offline AI Assistant
-Local-first AI chat application designed to run a GGUF language model directly on the user's device through `llama.cpp`, without requiring a hosted AI API for inference.
+Local-first Flutter AI chat prototype designed to run a GGUF language model directly on the user's device through `llama.cpp`, without requiring a hosted AI API for inference.
 
-**Highlights:** local model loading, Flutter chat UI, token-by-token generation, on-device conversation flow, local GGUF runtime integration.
+**Highlights:** local model loading, token-by-token generation, Material 3 chat UI, local runtime integration, and automated source analysis in GitHub Actions.
 
 **Tech:** Flutter · Dart · llama.cpp · llama_cpp_dart · GGUF
+
+**Stage:** cleaned-up portfolio reconstruction of an earlier personal project direction.
 
 ➡️ [View repository](https://github.com/anngktw-dot/offline-ai-assistant)
 
 ---
 
 ### Gradient — AI Lead & Email Workflow Platform
-Full-stack product with a **FastAPI backend** and **React frontend**, deployed separately on Render and Vercel. The backend work included Gmail-related flows, AI services, sales-intent detection, user registration handling, and database-backed application logic.
+Full-stack product with a **FastAPI backend** and **React frontend**. The backend work included Gmail-related flows, AI services, sales-intent detection, user registration handling, and database-backed application logic.
 
 **Tech:** Python · FastAPI · React · AI integrations · database layer · Render · Vercel
 
