@@ -44,6 +44,8 @@ The MVP includes connected screens, persisted demo state, vacancy filtering, can
 
 **Project stage:** interactive front-end MVP; real backend, database, production authentication, and AI integrations are planned next steps.
 
+➡️ [Read the project case study](./MOCKIT.md)
+
 ---
 
 ### Electronics Catalog
