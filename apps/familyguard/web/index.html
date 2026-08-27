@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FamilyGuard — Parent Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="parent">
+  <main class="container">
+    <div class="eyebrow">FamilyGuard</div>
+    <h1>Parent dashboard</h1>
+    <p class="muted">A transparent family-safety demo based on explicit child check-ins.</p>
+
+    <section class="grid">
+      <article class="card"><span class="label">Child</span><strong id="name">—</strong></article>
+      <article class="card"><span class="label">Status</span><strong id="status">—</strong></article>
+      <article class="card"><span class="label">Shared location</span><strong id="location">—</strong></article>
+      <article class="card"><span class="label">Battery</span><strong id="battery">—</strong></article>
+      <article class="card"><span class="label">Screen time</span><strong id="screenTime">—</strong></article>
+      <article class="card"><span class="label">Last check-in</span><strong id="lastCheckIn">—</strong></article>
+    </section>
+
+    <section class="card wide">
+      <h2>Top apps</h2>
+      <div id="apps" class="chips"></div>
+    </section>
+
+    <div class="actions">
+      <button id="refresh">Refresh data</button>
+      <a class="button secondary" href="child.html">Open child check-in</a>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
