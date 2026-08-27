@@ -19,7 +19,7 @@ A family-safety application concept with separate parent and child experiences p
 
 **Tech:** Python · FastAPI · Pydantic · HTML · CSS · JavaScript
 
-➡️ [View project source](./apps/familyguard/)
+➡️ [View repository](https://github.com/anngktw-dot/familyguard)
 
 ---
 
@@ -30,7 +30,7 @@ Local-first AI chat application designed to run a GGUF language model directly o
 
 **Tech:** Flutter · Dart · llama.cpp · llama_cpp_dart · GGUF
 
-➡️ [View project source](./apps/offline-ai-assistant/)
+➡️ [View repository](https://github.com/anngktw-dot/offline-ai-assistant)
 
 ---
 
